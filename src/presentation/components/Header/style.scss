@@ -1,0 +1,27 @@
+@import '../../styles/colors.scss';
+
+.loginHeader {
+    background-color: $primary;
+    display: flex;
+    padding: 30px 0;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+
+    .logo {
+        height: 55px;
+    
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+        h2 {
+            font-size: 1rem;
+            color: white;
+            margin: auto;
+            
+        }
+
+} 
